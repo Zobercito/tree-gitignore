@@ -92,10 +92,10 @@ You can pass specific paths and any flag accepted by the original `tree` command
 treeg /path/to/another/project
 
 # Limit depth to 2 levels (great for READMEs)
-treeg -L 2
+treeg . -L 2
 
 # Show only directories
-treeg -d
+treeg . -d
 
 ```
 
